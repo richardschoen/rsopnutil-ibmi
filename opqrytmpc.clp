@@ -1,4 +1,11 @@
-        PGM        PARM(&SQLQUERY &OUTFILE &EMPTYERROR &PROMPT)
+/*------------------------------------------------------------*/
+/* @@LIBRARY: RSOPNUTIL                                       */
+/* @@FILE: SOURCE                                             */
+/* @@MEMBER: OPQRYTMPC                                        */
+/* @@TYPE: CLP                                                */
+/* @@TEXT: SQL Query Data to Selected Temp Table with RUNSQL  */
+/*------------------------------------------------------------*/
+             PGM        PARM(&SQLQUERY &OUTFILE &EMPTYERROR &PROMPT)
 
              DCL        VAR(&PROMPT) TYPE(*CHAR) LEN(4)
              DCL        VAR(&EMPTYERROR) TYPE(*CHAR) LEN(4)
