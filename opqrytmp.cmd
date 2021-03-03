@@ -1,4 +1,11 @@
-             CMD        PROMPT('SQL Query Data to Temp Table')
+/*------------------------------------------------------------*/
+/* @@LIBRARY: RSOPNUTIL                                       */
+/* @@FILE: SOURCE                                             */
+/* @@MEMBER: OPQRYTMP                                         */
+/* @@TYPE: CMD                                                */
+/* @@TEXT: SQL Query Data to Selected Temp Table with RUNSQL  */
+/*------------------------------------------------------------*/
+ CMD        PROMPT('SQL Query Data to Temp Table')
              PARM       KWD(SQL) TYPE(*CHAR) LEN(5000) MIN(1) +
                           EXPR(*YES) CASE(*MIXED) PROMPT('SQL query')
              PARM       KWD(OUTFILE) TYPE(QUAL2) MIN(0) MAX(1) +
