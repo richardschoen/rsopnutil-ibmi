@@ -37,6 +37,14 @@ CURFILE="OPQRYTMPC.CLP"
 SRCTEXT="SQL Query Data to Selected Temp Table"
 cpy_member
 
+CURFILE="OPPATH.CMD"
+SRCTEXT="Set Open Source Package Path Environment Variables"
+cpy_member
+
+CURFILE="OPPATHC.CLLE"
+SRCTEXT="Set Open Source Package Path Environment Variables"
+cpy_member
+
 #CURFILE="SRCBLDC.CLP"
 #SRCTEXT="Build cmds from QSHONI/SOURCE file"   
 #cpy_member
