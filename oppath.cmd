@@ -1,6 +1,6 @@
 /*------------------------------------------------------------*/
-/* @@LIBRARY: RJSDEVMB                                        */
-/* @@FILE: SRCOPNUTIL                                         */
+/* @@LIBRARY: RSOPNUTIL                                       */
+/* @@FILE: SOURCE                                             */
 /* @@MEMBER: OPPATH                                           */
 /* @@TYPE: CMD                                                */
 /* @@TEXT: Set Open Source Package Path Environment Variables */
